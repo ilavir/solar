@@ -466,6 +466,10 @@ table.orange-head th a .desc {
   text-decoration: none !important;
 }
 
+table.table-hundred {
+  width: 100%;
+}
+
 table.table-strip tbody td {
   border-top: solid 1px #dbddde;
   border-right: solid 1px #dbddde;
@@ -499,6 +503,10 @@ table.table-strip tbody tr td.inner-title {
   background-color: #fff;
   font-size: 21px;
   padding-top: 30px;
+}
+
+table.table-strip-bordered {
+  border: solid 1px #dbddde;
 }
 
 table.catalog-list {
@@ -647,11 +655,11 @@ table.white-head th.active {
 
 .inner-text-cont .right-column {
   float: right;
-  width: 400px;
+  width: 360px;
 }
 
 .inner-text-cont .left-column {
-  margin-right: 420px;
+  margin-right: 400px;
 }
 
 .inner-text-cont .title-second {
