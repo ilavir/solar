@@ -653,6 +653,12 @@ table.white-head th.active {
   margin-bottom: 20px;
 }
 
+.inner-text-cont .page-title2 {
+  color: #009cb3;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
 .inner-text-cont .right-column {
   float: right;
   width: 360px;
@@ -705,6 +711,19 @@ a.zoom1:hover, a.zoom1:active {
 
 img.border {
   border: solid 1px #e3e7e9;
+}
+
+.inner-visuals .cont {
+  padding-right: 10px;
+  height: 400px;
+  background: url('../img/main-visual1.jpg') no-repeat top left;
+}
+
+.info-blue {
+  padding: 50px 20px;
+  color: #029db4;
+  font-size: 18px;
+  background-color: #ecf1f3;
 }
 
 /* /внутренняя каталога*/
@@ -783,4 +802,16 @@ img.border {
 .raz-down-blue-inner {
   background: url('../img/raz-down-blue-inner.png') no-repeat top;
   height: 15px;
+}
+
+.marginb20 {
+  margin-bottom: 20px;
+}
+
+.marginb40 {
+  margin-bottom: 40px;
+}
+
+.text18 {
+  font-size: 18px;
 }
