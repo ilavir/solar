@@ -640,7 +640,11 @@ table.white-head th a:hover, table.white-head th a:active {
 }
 
 table.white-head th.active {
-  background-color: #fff;
+  background: #fff !important;
+}
+
+table.white-head th.active a:link, table.white-head th.active a:visited {
+  color: #596167 !important;
 }
 
 /* /второстепенное меню сверху */
