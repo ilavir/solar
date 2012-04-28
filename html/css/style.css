@@ -397,8 +397,6 @@ table.orange-head th {
   background: linear-gradient(top, #727c84 0%, #646d74 30%, #646d74 70%, #727c84 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#727c84', endColorstr = '#727c84', GradientType = 0); /* IE6-8 */
   border-right: dotted 1px #7b8289;
-  padding: 0;
-  margin: 0;
 }
 
 table.orange-head th:last-child {
@@ -413,10 +411,6 @@ table.orange-head th a:link, table.orange-head th a:visited {
 }
 
 table.orange-head th:hover {
-
-}
-
-table.orange-head th a:hover, table.orange-head th a:active {
   background: #80888e; /* Old browsers */
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzliYTNhYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0iIzgwODg4ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iIzgwODg4ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5YmEzYWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -427,6 +421,9 @@ table.orange-head th a:hover, table.orange-head th a:active {
   background: -ms-linear-gradient(top, #9ba3aa 0%, #80888e 30%, #80888e 70%, #9ba3aa 100%); /* IE10+ */
   background: linear-gradient(top, #9ba3aa 0%, #80888e 30%, #80888e 70%, #9ba3aa 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#9ba3aa', endColorstr = '#9ba3aa', GradientType = 0); /* IE6-8 */
+}
+
+table.orange-head th a:hover, table.orange-head th a:active {
   color: #fff;
   text-decoration: none;
 }
@@ -441,7 +438,7 @@ table.orange-head th a:hover .title, table.orange-head th a:active .title {
   text-decoration: none;
 }
 
-table.orange-head th.active a:link, table.orange-head th.active a:visited {
+table.orange-head th.active {
   background: #ffc000; /* Old browsers */
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI5MCUiIHN0b3AtY29sb3I9IiNmZmMwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYzQ4ZjAwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
@@ -463,6 +460,34 @@ table.orange-head th a .desc {
   color: #fff;
   font-size: 15px;
   text-decoration: none !important;
+}
+
+table.orange-head th.back,
+table.orange-head th.nohref {
+  background: #727c84; /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzcyN2M4NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0iIzY0NmQ3NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iIzY0NmQ3NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3MjdjODQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #727c84 0%, #646d74 30%, #646d74 70%, #727c84 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #727c84), color-stop(30%, #646d74), color-stop(70%, #646d74), color-stop(100%, #727c84)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #727c84 0%, #646d74 30%, #646d74 70%, #727c84 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #727c84 0%, #646d74 30%, #646d74 70%, #727c84 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #727c84 0%, #646d74 30%, #646d74 70%, #727c84 100%); /* IE10+ */
+  background: linear-gradient(top, #727c84 0%, #646d74 30%, #646d74 70%, #727c84 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#727c84', endColorstr = '#727c84', GradientType = 0); /* IE6-8 */
+}
+
+table.orange-head th.back a:link, table.orange-head th.back a:visited {
+  padding-left: 45px !important;
+  color: #fff;
+  font-size: 14px;
+  text-align: left !important;
+  background: url('../img/catalog-detailed-back-icon.png') no-repeat;
+  background-position: 10px center;
+}
+
+table.orange-head th.back a:hover, table.orange-head th.back a:active {
+  background: url('../img/catalog-detailed-back-icon-a.png') no-repeat;
+  background-position: 10px center;
 }
 
 table.table-hundred {
@@ -634,7 +659,7 @@ table.catalog-detailed-second th a:link, table.catalog-detailed-second th a:visi
   display: block;
   margin: 0 !important;
   color: #fff;
-  padding: 12px;
+  padding: 12px 8px;
   border-right: dotted 1px #747d87;
   text-decoration: none;
 }
@@ -654,6 +679,22 @@ table.catalog-detailed-second th.active:hover {
 
 table.catalog-detailed-second th.active a {
   color: #596167 !important;
+}
+
+table.catalog-detailed-second th.poll-list {
+  background: #009cb3 !important;
+  filter: none !important;
+}
+
+table.catalog-detailed-second th.poll-list:hover {
+  background: #0aa0b6 !important;
+}
+
+table.catalog-detailed-second th.poll-list a:link, table.catalog-detailed-second th.poll-list a:visited {
+  color: #fff !important;
+  padding-right: 27px;
+  background: url('../img/catalog-detailed-second-poll-icon.png') no-repeat;
+  background-position: 95% center;
 }
 
 /* */
