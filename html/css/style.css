@@ -829,6 +829,10 @@ ul.list-orange li:last-child {
   border-bottom: dotted 1px #e3e7e9;
 }
 
+ul.list-orange-undotted li {
+  border: none !important;
+}
+
 ul.list-orange-big li {
   padding: 5px 0 10px 35px;
   border-bottom: dotted 1px #e3e7e9;
@@ -968,6 +972,12 @@ img.border {
 
 /* /подвал */
 /* разное */
+hr.gray {
+  height: 1px;
+  color: #e3e7e9;
+  margin: 8px 0 !important;
+}
+
 .raz-down-blue {
   height: 20px;
   background: url('../img/raz-down-blue.png') no-repeat top;
@@ -992,4 +1002,8 @@ img.border {
 
 .text18 {
   font-size: 18px;
+}
+
+.text15 {
+  font-size: 15px;
 }
