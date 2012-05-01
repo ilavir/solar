@@ -526,7 +526,7 @@ table.table-strip tbody tr:nth-child(odd) td {
   background-color: #f5f7f8;
 }
 
-table.table-strip tbody tr td:not(.blue-bold):first-child,
+table.table-strip tbody tr td:not(.blue-bold):not(.inner-title):first-child,
 table.table-strip thead th {
   background-color: #dde4e7;
 }
@@ -544,6 +544,27 @@ table.table-strip tbody tr td.inner-title {
 table.table-strip tbody td.blue-bold {
   color: #009cb3;
   font-weight: bold;
+}
+
+table.table-strip tbody td.access1 {
+  width: 50%;
+  background-color: #fff !important;
+  vertical-align: middle !important;
+
+}
+
+table.table-strip tbody td.access2 {
+  background-color: #fff !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-left: dotted #c8c8c8 1px !important;
+}
+
+table.table-strip tbody td.access1 .title-item {
+  color: #3c3c3d;
+  font-size: 21px;
+  text-decoration: underline;
+  margin-bottom: 15px;
 }
 
 table.table-strip-bordered {
@@ -902,6 +923,20 @@ img.border {
 
 .page-title-blue {
   color: #009cb3;
+}
+
+.left-column50 {
+  float: right;
+  width: 50%;
+}
+
+.left-column50 .inner-cont {
+  margin-right: 40px;
+}
+
+.right-column50 {
+  float: right;
+  width: 50%;
 }
 
 /* /внутренняя каталога*/
