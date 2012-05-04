@@ -1190,10 +1190,57 @@ ul.access-left-menu li.active a span {
 
 table.inner-menu {
   width: auto !important;
+  border-bottom: none !important;
 }
 
 table.inner-menu th:nth-last-child(2) a {
   border-right: dotted 1px #747d87 !important;;
+}
+
+ul.menu-otdely li {
+  padding: 8px 0;
+  border-bottom: dotted 1px #c8c8c8;
+}
+
+ul.menu-otdely li a:link, ul.menu-otdely li a:visited {
+  color: #168a9b;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+ul.menu-otdely li a:hover, ul.menu-otdely li a:active {
+  color: #596167;
+}
+
+.sotrudnik-item {
+  float: left;
+  width: 320px;
+  padding-right: 30px;
+  margin-bottom: 30px;
+}
+
+.sotrudnik-item img {
+  margin-bottom: 15px;
+  border: solid 4px #ecf1f3;
+}
+
+.sotrudnik-item .dolzhnost {
+  margin-bottom: 10px;
+  color: #7a7a7a;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.sotrudnik-item a.email:link, .sotrudnik-item a.email:visited {
+  display: inline-block;
+  margin-top: 5px;
+  color: #666;
+  text-decoration: none;
+}
+
+.sotrudnik-item a.email:hover, .sotrudnik-item a.email:active {
+  color: #168a9b;
+  text-decoration: underline;
 }
 
 /* /внутрение страницы */
@@ -1307,6 +1354,14 @@ hr.gray {
 
 .text15 {
   font-size: 15px;
+}
+
+.text16 {
+  font-size: 16px;
+}
+
+.text21 {
+  font-size: 21px;
 }
 
 .red {
