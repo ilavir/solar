@@ -401,7 +401,7 @@ p {
   margin: 0 0 9px;
   font-family: Arial, Helvetica, "Helvetica Neue", sans-serif;
   font-size: 14px;
-  line-height: baseline;
+  line-height: normal;
 }
 
 p small {
@@ -522,7 +522,7 @@ ol {
 }
 
 li {
-  line-height: baseline;
+  line-height: normal;
 }
 
 ul.unstyled,
@@ -832,7 +832,7 @@ table {
 .table th,
 .table td {
   padding: 8px;
-  line-height: baseline;
+  line-height: normal;
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #dddddd;
@@ -1128,9 +1128,9 @@ select,
   line-height: 18px;
   color: #555555;
   border: 1px solid #cccccc;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
 }
 
 .uneditable-textarea {

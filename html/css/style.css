@@ -764,6 +764,16 @@ table.catalog-detailed-second th.poll-list a:link, table.catalog-detailed-second
   background-position: 95% center;
 }
 
+table.catalog-detailed-second th.active.poll-list {
+  background: #fff !important;
+}
+
+table.catalog-detailed-second th.active.poll-list a {
+  color: #009cb3 !important;
+  background: url('../img/catalog-detailed-second-poll-icon-a.png') no-repeat !important;
+  background-position: 95% center !important;
+}
+
 /* */
 table.catalog-detailed-third {
   width: 100%;
@@ -968,11 +978,11 @@ img.border {
 .access-left-cont {
   float: left;
   width: 225px;
+  border-right: solid 2px #c3c6c8;
   background: #e3e7e9 url('../img/td-white-bg2.png') repeat-y left;
 }
 
 ul.access-left-menu li {
-  margin-right: 2px;
   border-top: solid 2px #9198a1;
   background: #78818b; /* Old browsers */
   background: -moz-linear-gradient(top, #78818b 0%, #5a6168 100%); /* FF3.6+ */
@@ -1015,10 +1025,15 @@ ul.access-left-menu li a:hover span {
 }
 
 ul.access-left-menu li.active {
-  margin-right: 0 !important;
-  border-top: solid 2px transparent !important;
   background: #fff !important;
   filter: none !important;
+}
+
+ul.access-left-menu li.active a {
+  position: relative;
+  left: 2px;
+  padding: 10px 17px 10px 13px !important;
+  background: #fff;
 }
 
 ul.access-left-menu li.active a,
@@ -1033,6 +1048,134 @@ ul.access-left-menu li.active a span {
 
 /* /аксессуары */
 /* /внутренняя каталога*/
+/* опросный лист */
+.poll-cont legend {
+  color: #363636;
+  font-size: 18px;
+  border: none;
+  margin: 0;
+}
+
+.poll-cont fieldset:nth-child(1) legend {
+  padding-left: 35px;
+  background: url('../img/ul-orange-list-big-icon1.png') no-repeat;
+  background-position: 0 4px;
+}
+
+.poll-cont fieldset:nth-child(2) legend {
+  padding-left: 35px;
+  background: url('../img/ul-orange-list-big-icon2.png') no-repeat;
+  background-position: 0 4px;
+}
+
+.poll-cont fieldset:nth-child(3) legend {
+  padding-left: 35px;
+  background: url('../img/ul-orange-list-big-icon3.png') no-repeat;
+  background-position: 0 4px;
+}
+
+.poll-cont fieldset:nth-child(4) legend {
+  padding-left: 35px;
+  background: url('../img/ul-orange-list-big-icon4.png') no-repeat;
+  background-position: 0 4px;
+}
+
+.poll-cont fieldset:nth-child(5) legend {
+  padding-left: 35px;
+  background: url('../img/ul-orange-list-big-icon5.png') no-repeat;
+  background-position: 0 4px;
+}
+
+.poll-cont table {
+  width: 80%;
+  margin-bottom: 30px;
+  background-color: #f5f7f8;
+  border: solid 1px #fff;
+  outline: solid 1px #e4e4e4;
+  box-shadow: 0 1px 2px #b2b5b7;
+  -moz-box-shadow: 0 1px 2px #b2b5b7;
+  -webkit-box-shadow: 0 1px 2px #b2b5b7;
+}
+
+.poll-cont td.poll-label {
+  text-align: right;
+  padding: 0 10px 0 20px;
+  width: 50%;
+}
+
+.poll-cont td.poll-input {
+  padding-right: 20px;
+}
+
+.poll-cont table:not(.table-strip) tr:first-child td {
+  padding-top: 20px;
+}
+
+.poll-cont table:not(.table-strip) tr:last-child td {
+  padding-bottom: 11px;
+}
+
+.poll-cont td.poll-input input {
+  width: 300px;
+}
+
+.poll-cont table.table-strip {
+  width: 80%;
+  background-color: transparent;
+  border: solid 1px #DBDDDE;
+  outline: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.poll-cont table.table-strip td {
+  padding: 2px 3px;
+}
+
+.poll-cont table.table-strip td.blue-bold {
+  width: 70px;
+}
+
+.poll-cont table.table-strip input {
+  width: 40px;
+  margin: 2px 0;
+}
+
+.button-send-cont {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.button-send-cont a:link, .button-send-cont a:visited {
+  display: inline-block;
+  padding: 15px 50px;
+  color: #363636;
+  font-size: 21px;
+  text-decoration: none;
+  background: #ffda80; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffda80 0%, #ffb910 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffda80), color-stop(100%, #ffb910)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffda80 0%, #ffb910 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffda80 0%, #ffb910 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffda80 0%, #ffb910 100%); /* IE10+ */
+  background: linear-gradient(top, #ffda80 0%, #ffb910 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffda80', endColorstr = '#ffb910', GradientType = 0); /* IE6-9 */
+}
+
+.button-send-cont a:hover, .button-send-cont a:active {
+  color: #bb5800;
+  background: #ffe380; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffe380 0%, #ffc90d 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffe380), color-stop(100%, #ffc90d)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffe380 0%, #ffc90d 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffe380 0%, #ffc90d 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffe380 0%, #ffc90d 100%); /* IE10+ */
+  background: linear-gradient(top, #ffe380 0%, #ffc90d 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffe380', endColorstr = '#ffc90d', GradientType = 0); /* IE6-9 */
+}
+
+/* /опросный лист */
 /* /каталог */
 /* /внутрение страницы */
 /* подвал */
@@ -1145,4 +1288,8 @@ hr.gray {
 
 .text15 {
   font-size: 15px;
+}
+
+.red {
+  color: #ff0303;
 }
