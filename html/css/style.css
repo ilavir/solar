@@ -1177,6 +1177,25 @@ ul.access-left-menu li.active a span {
 
 /* /опросный лист */
 /* /каталог */
+.inner-menu-cont {
+  background: #9098a0; /* Old browsers */
+  background: -moz-linear-gradient(top, #9098a0 0%, #596168 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9098a0), color-stop(100%, #596168)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #9098a0 0%, #596168 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #9098a0 0%, #596168 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #9098a0 0%, #596168 100%); /* IE10+ */
+  background: linear-gradient(top, #9098a0 0%, #596168 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#9098a0', endColorstr = '#596168', GradientType = 0); /* IE6-9 */
+}
+
+table.inner-menu {
+  width: auto !important;
+}
+
+table.inner-menu th:nth-last-child(2) a {
+  border-right: dotted 1px #747d87 !important;;
+}
+
 /* /внутрение страницы */
 /* подвал */
 .footer {
