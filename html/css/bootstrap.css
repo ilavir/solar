@@ -3597,6 +3597,7 @@ input[type="submit"].btn.btn-mini {
   color: #333333;
 }
 
+/*
 .pagination {
   height: 36px;
   margin: 18px 0;
@@ -3605,8 +3606,6 @@ input[type="submit"].btn.btn-mini {
 .pagination ul {
   display: inline-block;
   *display: inline;
-  /* IE7 inline-block hack */
-
   *zoom: 1;
   margin-left: 0;
   margin-bottom: 0;
@@ -3669,7 +3668,7 @@ input[type="submit"].btn.btn-mini {
 .pagination-right {
   text-align: right;
 }
-
+*/
 .pager {
   margin-left: 0;
   margin-bottom: 18px;
