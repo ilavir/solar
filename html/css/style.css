@@ -74,7 +74,7 @@ body {
   margin-right: 50px;
 }
 
-.header .search-query {
+.form-search .search-query {
   background: #e3e7e9;
 }
 
@@ -1147,7 +1147,8 @@ ul.access-left-menu li.active a span {
   text-align: center;
 }
 
-.button-send-cont a:link, .button-send-cont a:visited {
+.button-send-cont a:link, .button-send-cont a:visited,
+.data-contacts .submit-cont a {
   display: inline-block;
   padding: 15px 50px;
   color: #363636;
@@ -1163,7 +1164,8 @@ ul.access-left-menu li.active a span {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffda80', endColorstr = '#ffb910', GradientType = 0); /* IE6-9 */
 }
 
-.button-send-cont a:hover, .button-send-cont a:active {
+.button-send-cont a:hover, .button-send-cont a:active,
+.data-contacts .submit-cont a:hover {
   color: #bb5800;
   background: #ffe380; /* Old browsers */
   background: -moz-linear-gradient(top, #ffe380 0%, #ffc90d 100%); /* FF3.6+ */
@@ -1446,6 +1448,171 @@ ul.articles-menu li.second-menu + li a {
 }
 
 /* /статьи */
+.form-search a.but-search1 {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin-left: 15px;
+  color: #009cb3;
+  font-size: 21px;
+  text-decoration: none;
+}
+
+.form-search a.but-search1:hover {
+  color: #00beda;
+}
+
+.search-result {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #e3e7e9;
+}
+
+.search-result a {
+  color: #007e91;
+  text-decoration: underline;
+}
+
+.search-result a:hover {
+  color: #00beda;
+}
+
+/* контакты */
+.data-contacts .contact-text .name {
+  margin-bottom: 15px;
+  font: normal 21px Arial;
+}
+
+.data-contacts .contact-text .address {
+  margin-bottom: 15px;
+  color: #646c71;
+  font: normal 18px Arial;
+}
+
+.data-contacts .contact-text .tel {
+  font: normal 16px Arial;
+}
+
+.data-contacts .contact-text a.map {
+  display: inline-block;
+  height: 33px;
+  padding-left: 35px;
+  background: url('../img/button-map-icon.png') no-repeat top left;
+}
+
+.data-contacts .contact-text a.map span {
+  display: inline-block;
+  padding-top: 10px;
+  color: #333;
+  font: normal 15px Arial;
+  text-decoration: underline;
+}
+
+.data-contacts .contact-text a.map:hover span {
+  color: #009cb3;
+}
+
+.data-contacts .contact-form {
+  display: inline-block;
+  padding: 10px 40px;
+  border-left: solid 1px #f2f2f2;
+  border-right: solid 1px #f2f2f2;
+  border-bottom: solid 1px #d9d9d9;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px #f2f2f2;
+  -moz-box-shadow: 0 1px 1px #f2f2f2;
+  -webkit-box-shadow: 0 1px 1px #f2f2f2;
+  background: #f9f9f9; /* Old browsers */
+  background: -moz-linear-gradient(top, #f9f9f9 0%, #fefefe 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #fefefe)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f9f9f9 0%, #fefefe 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f9f9f9 0%, #fefefe 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f9f9f9 0%, #fefefe 100%); /* IE10+ */
+  background: linear-gradient(top, #f9f9f9 0%, #fefefe 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f9f9f9', endColorstr = '#fefefe', GradientType = 0); /* IE6-9 */
+}
+
+.data-contacts .data-inner-c {
+  padding-top: 2px;
+}
+
+.data-contacts .contact-form {
+  width: 363px;
+  float: right;
+}
+
+.data-contacts .contact-text {
+  margin-right: 470px;
+}
+
+.contact-form .input-cont {
+  margin: 15px 0;
+  color: #666;
+  font: normal 14px Arial;
+}
+
+.contact-form span.bold {
+  color: #333 !important;
+  font-weight: bold;
+}
+
+.contact-form input {
+  width: 357px;
+  height: 28px;
+  margin-top: 5px;
+  font: normal 15px Arial;
+  line-height: 28px;
+  border: solid 1px #4bb3d5;
+  box-shadow: 0 2px 3px #dae9ec inset;
+  -moz-box-shadow: 0 2px 3px #dae9ec inset;
+  -webkit-box-shadow: 0 2px 3px #dae9ec inset;
+}
+
+.contact-form textarea {
+  width: 357px;
+  height: 150px;
+  margin-top: 10px;
+  font: normal 15px Arial;
+  border: solid 1px #4bb3d5;
+  resize: none;
+  background: #f2fcfe;
+}
+
+.contact-form .submit-cont {
+  padding: 10px 0 0;
+  text-align: center;
+  border-top: dotted 1px #cecece;
+}
+
+.data-contacts .contact-text .map {
+  float: left;
+}
+
+.data-contacts .contact-text .map img {
+  padding: 2px;
+  border: solid 1px #e6eff2;
+}
+
+.data-contacts .contact-text .address-cont {
+  margin-left: 250px;
+}
+
+.data-contacts .contact-text .rezhim {
+  margin: 20px 0 0 0 !important;
+}
+
+.data-contacts .contact-text .map a.map {
+  margin-top: 15px !important;
+}
+
+.data-contacts .contact-form .desc {
+  color: #333;
+  font: normal 15px Arial;
+}
+
+/* /контакты */
 /* /внутрение страницы */
 /* подвал */
 .footer {
