@@ -1613,6 +1613,80 @@ ul.articles-menu li.second-menu + li a {
 }
 
 /* /контакты */
+/* таблица элементов */
+.table-elements {
+  width: 1068px;
+}
+
+.table-elements td {
+  padding: 3px;
+}
+
+.table-elements div {
+  text-align: center;
+}
+
+.table-elements .text div {
+  margin-left: 60px;
+  text-align: left !important;
+  color: #264c51;
+}
+
+.table-elements .container {
+  width: 51px;
+  height: 51px;
+}
+
+.table-elements .inactive,
+.table-elements .active {
+  border: solid 1px #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 0 1px 2px #b8cdd0;
+  -moz-box-shadow: 0 1px 2px #b8cdd0;
+  -webkit-box-shadow: 0 1px 2px #b8cdd0;
+  cursor: pointer;
+}
+
+.table-elements .inactive {
+  width: 51px;
+  height: 51px;
+  background-color: #eef1f2;
+  color: #264c51;
+  z-index: 988;
+}
+
+.table-elements .inactive .element {
+  font-size: 26px;
+}
+
+.table-elements .inactive .ppm {
+  margin-top: 2px;
+  font-size: 12px;
+}
+
+.table-elements .active {
+  display: none;
+  position: relative;
+  left: -10px;
+  top: -63px;
+  width: 71px;
+  height: 71px;
+  background-color: #f9bd04;
+  z-index: 999;
+}
+
+.table-elements .active .element {
+  font-size: 36px;
+}
+
+.table-elements .active .ppm {
+  margin-top: 2px;
+  font-size: 15px;
+}
+
+/* /таблица элементов */
 /* /внутрение страницы */
 /* подвал */
 .footer {
@@ -1722,10 +1796,6 @@ hr.gray {
   margin-top: 40px;
 }
 
-.text18 {
-  font-size: 18px;
-}
-
 .text15 {
   font-size: 15px;
 }
@@ -1734,8 +1804,20 @@ hr.gray {
   font-size: 16px;
 }
 
+.text17 {
+  font-size: 17px;
+}
+
+.text18 {
+  font-size: 18px;
+}
+
 .text21 {
   font-size: 21px;
+}
+
+.text24 {
+  font-size: 24px;
 }
 
 .red {

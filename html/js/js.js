@@ -8,6 +8,15 @@ function equalHeight(group) {
   });
   group.height(tallest);
 }
+$(function () {
+  $('.table-elements .container').hover(
+    function () {
+      $(this).children('.active').css('display', 'block');
+    },
+    function () {
+      $(this).children('.active').css('display', 'none');
+    });
+});
 
 $(window).load(function () {
   equalHeight($(".access-sidebar"));
