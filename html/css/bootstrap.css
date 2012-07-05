@@ -4453,7 +4453,7 @@ a.thumbnail:hover {
   font-weight: normal;
   line-height: 18px;
   color: #333333;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .dropdown-menu li > a:hover,
